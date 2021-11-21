@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.face {
+    
+    background-color: #EABCA0;
+    height: 20em;
+    width: 20em;
+    border-radius: 44% 45% 45% 46% / 33% 32% 51% 53% ;
+}
+.position {
+    display: flex;
+}
+.eyebrows-left {
+    background-color: #756666;
+    height: 2em;
+    width: 5em;
+    
+    clip-path: polygon(49% 10%, 97% 35%, 50% 27%, 0 51%);
+    transform: translate(70%, 150%);
+}
+
+.eyebrows-right {
+    background-color: #756666;
+    height: 2em;
+    width: 5em;
+    margin-left: 2rem;
+    clip-path: polygon(49% 10%, 97% 48%, 40% 27%, 0 38%);
+    transform:  translate(70%, 150%);
+}
+
+.eyes {
+    background-color: whitesmoke;
+    height: 6em;
+    width: 6em;
+    margin-right: 1rem;
+    clip-path: ellipse(50% 34% at 50% 30%);
+    transform:  translate(50%, 50%);
+}
+.eye-line {
+    background-color: #756666;
+    height: 2em;
+    width: 6em;
+    clip-path: polygon(52% 1%, 77% 10%, 100% 35%, 73% 14%, 54% 8%, 41% 10%, 28% 16%, 17% 21%, 0% 35%, 21% 11%);
+}
